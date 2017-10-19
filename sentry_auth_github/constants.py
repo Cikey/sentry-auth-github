@@ -2,9 +2,9 @@ from __future__ import absolute_import, print_function
 
 from django.conf import settings
 
-CLIENT_ID = getattr(settings, 'GITHUB_APP_ID', None)
+CLIENT_ID = getattr(settings, 'GITHUB_SSO_APP_ID', None)
 
-CLIENT_SECRET = getattr(settings, 'GITHUB_API_SECRET', None)
+CLIENT_SECRET = getattr(settings, 'GITHUB_SSO_API_SECRET', None)
 
 REQUIRE_VERIFIED_EMAIL = getattr(settings, 'GITHUB_REQUIRE_VERIFIED_EMAIL', False)
 

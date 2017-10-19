@@ -8,7 +8,7 @@ Install
 
 ::
 
-    $ pip install https://github.com/getsentry/sentry-auth-github/archive/master.zip
+    $ pip install https://github.com/cikey/sentry-auth-github/archive/master.zip
 
 Setup
 -----
@@ -25,9 +25,9 @@ Once done, grab your API keys and drop them in your ``sentry.conf.py``:
 
 .. code-block:: python
 
-    GITHUB_APP_ID = ""
+    GITHUB_SSO_APP_ID = ""
 
-    GITHUB_API_SECRET = ""
+    GITHUB_SSO_API_SECRET = ""
 
 
 Verified email addresses can optionally be required:
